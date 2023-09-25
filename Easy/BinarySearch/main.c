@@ -32,7 +32,7 @@ int main() {
 
     int result = binarySearch(nums, numsSize, target);
     (result == -1) ? printf("Element is not present in array.\n")
-                    : printf("Element is present in array,\n");
+                    : printf("Element is present in array.\n");
 
     return 0;
 }
